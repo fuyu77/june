@@ -126,7 +126,7 @@ dfn {
 h1 {
   font-size: 120%;
   margin: 0.67em 0;
-  border-bottom: 0;
+  border-bottom: solid 1px #666666;
 }
 /**
  * Address styling not present in IE 8/9.
@@ -660,7 +660,7 @@ a.keyword {
 .entry-content h3 {
   line-height: 2.0;
   margin: 1.3em 0 0.7em 0;
-  border-bottom: 0;
+  border-bottom: solid 1px #666666;
 }
 .entry-content h4,
 .entry-content h5 {
