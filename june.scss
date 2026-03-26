@@ -521,29 +521,38 @@ a.keyword {
 
 /* header */
 #blog-title {
-  margin: 40px 0 60px;
+  margin: 56px 0 72px;
+  padding: 0 0 28px;
+  border-bottom: 1px solid #e5e5e5;
   text-align: center;
 }
 #title {
   margin: 0;
 }
 #title a {
-  color: #666666;
-  font-size: 120%;
+  color: #4a4a4a;
+  font-size: 170%;
+  font-weight: normal;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
   text-decoration: none;
 }
 #title a:hover {
-  color: #999999;
+  color: #808080;
   text-decoration: none;
 }
 #blog-description {
   font-weight: normal;
-  font-size: 80%;
-  margin: 5px 0 0 0;
+  font-size: 82%;
+  color: #8c8c8c;
+  letter-spacing: 0.08em;
+  line-height: 1.9;
+  margin: 14px auto 0;
+  max-width: 32em;
 }
 /* ヘッダ画像を設定したとき */
 .header-image-enable #title {
-  padding-top: 70px;
+  padding-top: 90px;
 }
 .header-image-enable #title,
 .header-image-enable #blog-description {
