@@ -656,10 +656,20 @@ a.keyword {
 }
 /* entry-content の中の書式 */
 .entry-content {
+  color: #444444;
+  font-size: 103%;
   line-height: 2.0;
 }
 .entry-content p {
-  margin: 0 0 1.9em;
+  margin: 0 0 2em;
+}
+.entry-content a {
+  color: #5fa8d3;
+  text-decoration: none;
+}
+.entry-content a:hover {
+  color: #3f93c4;
+  text-decoration: underline;
 }
 .entry-content img {
   max-width: 100%;
@@ -703,8 +713,11 @@ a.keyword {
 }
 .entry-content ul,
 .entry-content ol {
-  padding-left: 1.0em;
-  margin-block-end: 1.9em;
+  padding-left: 1.4em;
+  margin-block-end: 2em;
+}
+.entry-content li {
+  margin-bottom: 0.45em;
 }
 .entry-content ul ul,
 .entry-content ul ol,
@@ -723,26 +736,29 @@ a.keyword {
 .entry-content table th,
 .entry-content table td {
   border: 1px solid #dddddd;
-  padding: 5px 10px;
+  padding: 8px 12px;
 }
 .entry-content table th {
-  background: #f5f5f5;
+  background: #f7f7f7;
 }
 .entry-content blockquote {
-  border: 1px solid #dddddd;
-  margin: 0 0 1.9em;
-  padding: 5px 10px;
+  color: #555555;
+  background: #fafafa;
+  border-left: 4px solid #d7d7d7;
+  margin: 0 0 2em;
+  padding: 14px 18px;
 }
 .entry-content blockquote p:last-child {
   margin: 0;
 }
 .entry-content pre {
-  border: 1px solid #dddddd;
-  margin: 0 0 1.6em;
-  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #e3e3e3;
+  margin: 0 0 1.8em;
+  padding: 14px 16px;
   font-size: 90%;
   white-space: pre;
-  line-height: 1.4;
+  line-height: 1.6;
   font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
 }
 .entry-content pre > code {
@@ -757,8 +773,9 @@ a.keyword {
   font-size: 90%;
   margin: 0 2px;
   line-height: 1.4;
-  padding: 0 5px;
-  border: 1px solid #dddddd;
+  padding: 1px 6px;
+  background: #faf7f8;
+  border: 1px solid #eadfe3;
   border-radius: 3px;
   font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
 }
