@@ -674,6 +674,21 @@ a.keyword {
 .entry-content img {
   max-width: 100%;
 }
+.entry-content iframe.embed-card {
+  display: block;
+  max-width: 100%;
+  margin: 0 !important;
+}
+.entry-content .hatena-citation {
+  display: block;
+  margin-top: 0.45em;
+  font-size: 85%;
+  line-height: 1.6;
+  color: #888888;
+}
+.entry-content .hatena-citation a {
+  color: inherit;
+}
 .entry-content h1,
 .entry-content h2 {
   line-height: 2.0;
