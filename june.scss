@@ -763,12 +763,18 @@ a.keyword {
   background: #1f2428;
   border: 1px solid #31393f;
   margin: 0 0 1.8em;
-  padding: 14px 18px;
-  font-size: 90%;
+  padding: 12px 14px;
+  font-size: 85%;
   overflow-x: auto;
   white-space: pre;
   line-height: 1.6;
   font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
+}
+@media screen and (min-width: 768px) {
+  .entry-content pre {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
 }
 .entry-content pre > code {
   color: inherit;
