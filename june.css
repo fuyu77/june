@@ -522,6 +522,7 @@ a.keyword {
 /* header */
 #blog-title {
   margin: 40px 0 60px;
+  text-align: center;
 }
 #title {
   margin: 0;
@@ -529,10 +530,11 @@ a.keyword {
 #title a {
   color: #666666;
   font-size: 120%;
+  text-decoration: none;
 }
 #title a:hover {
   color: #999999;
-  text-decoration: underline;
+  text-decoration: none;
 }
 #blog-description {
   font-weight: normal;
