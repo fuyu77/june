@@ -521,25 +521,37 @@ a.keyword {
 
 /* header */
 #blog-title {
-  margin: 40px 0 60px;
+  margin: 48px 0 64px;
+  padding: 0 0 28px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+#blog-title-inner {
+  max-width: 520px;
+  margin: 0 auto;
   text-align: center;
 }
 #title {
   margin: 0;
+  line-height: 1.4;
 }
 #title a {
-  color: #666666;
-  font-size: 120%;
+  color: #555555;
+  font-size: 170%;
+  font-weight: normal;
+  letter-spacing: 0.08em;
   text-decoration: none;
 }
 #title a:hover {
-  color: #999999;
+  color: #888888;
   text-decoration: none;
 }
 #blog-description {
   font-weight: normal;
-  font-size: 80%;
-  margin: 5px 0 0 0;
+  font-size: 88%;
+  line-height: 1.8;
+  color: #8a8a8a;
+  margin: 14px 0 0 0;
 }
 /* ヘッダ画像を設定したとき */
 .header-image-enable #title {
@@ -547,7 +559,7 @@ a.keyword {
 }
 .header-image-enable #title,
 .header-image-enable #blog-description {
-  padding-left: 20px;
+  padding-left: 0;
 }
 /* パンくず（カテゴリーページで表示されます） */
 #top-box {
