@@ -663,6 +663,9 @@ a.keyword {
 .entry-content p {
   margin: 0 0 2em;
 }
+.entry-content p:has(> iframe.embed-card) {
+  margin-bottom: 1.1em;
+}
 .entry-content a {
   color: #5fa8d3;
   text-decoration: none;
@@ -678,6 +681,9 @@ a.keyword {
   display: block;
   max-width: 100%;
   margin: 0 !important;
+}
+.entry-content p:has(> iframe.embed-card) .hatena-citation {
+  margin-bottom: 0;
 }
 .entry-content .hatena-citation {
   display: block;
