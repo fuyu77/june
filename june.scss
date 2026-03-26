@@ -573,26 +573,31 @@ a.keyword {
   margin-bottom: 100px;
 }
 .entry-header {
-  padding: 0 0 10px 0;
-  margin-bottom: 15px;
+  padding: 0 0 18px 0;
+  margin-bottom: 22px;
   position: relative;
 }
 .entry-title {
+  margin: 0 0 12px;
   border-bottom: 0;
+  font-size: 170%;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  line-height: 1.7;
 }
 .entry-title a {
-  font-weight: bold;
-  margin: 0;
+  color: #4a4a4a;
   text-decoration: none;
 }
 .entry-title a:hover {
-  color: #8ac6f3;
+  color: #808080;
   text-decoration: none;
 }
 /* 日付 */
 .date {
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-weight: normal;
+  margin-bottom: 14px;
+  letter-spacing: 0.08em;
 }
 .date a {
   color: #666666;
