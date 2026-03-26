@@ -755,6 +755,9 @@ a.keyword {
 .entry-content blockquote p {
   margin: 0;
 }
+.entry-content blockquote p + p {
+  margin-top: 1em;
+}
 .entry-content pre {
   color: #e6edf3;
   background: #1f2428;
