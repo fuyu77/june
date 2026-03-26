@@ -770,12 +770,6 @@ a.keyword {
   line-height: 1.6;
   font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
 }
-@media screen and (min-width: 768px) {
-  .entry-content pre {
-    margin-left: -12px;
-    margin-right: -12px;
-  }
-}
 .entry-content pre > code {
   color: inherit;
   background: transparent;
